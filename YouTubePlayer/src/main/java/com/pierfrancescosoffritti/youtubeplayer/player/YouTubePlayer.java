@@ -18,6 +18,7 @@ public interface YouTubePlayer {
     void cueVideo(final String videoId, final float startSeconds);
 
     void play();
+    void stop();
     void pause();
 
     /**
